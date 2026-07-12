@@ -1,0 +1,57 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border: 3px solid #669bbc;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #fdf0d5;
+    border: 6px groove #003049;
+    background-color: #780000;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    
+    }
+  
+
+@keyframes myAnimation{
+    from{background-color: #780000;}
+    to{background-color: #c1121f;}
+}             
+
+
+.border-blue {
+    border: 1px dashed blue;
+}
+
+
+.content{
+    text-shadow: 5px 5px 7px black;
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
