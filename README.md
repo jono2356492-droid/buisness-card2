@@ -1,4 +1,4 @@
-# Getting Started
+# Create business card
 Install the dependencies and run the project
 ```
 npm install
